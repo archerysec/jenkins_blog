@@ -1,3 +1,5 @@
+pip install archerysec-cli
+
 DATE=`date +%Y-%m-%d`
 
 TARGET_URL=http://demo.testfire.net
