@@ -18,7 +18,7 @@ export job_status=`python /var/jenkins_home/archery_script.py --scanner=zap_scan
 
 if [ -n "$job_status" ]
 then
-  Run your script commands here
+  #Run your script commands here
    echo "Build Sucess"
 else
  echo "BUILD FAILURE: Other build is unsuccessful or status could not be obtained."
